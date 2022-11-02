@@ -6,8 +6,17 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    list=data.split(',')
-    return list
+    list1=data.split(',')
+    l=[]
+    
+    for i in range(len(list1)):
+        l.append(int(list1[i]))
+
+   
+   
+
+
+    return l
 f=open('txt_file/data01.txt')
 d=f.read()
 
