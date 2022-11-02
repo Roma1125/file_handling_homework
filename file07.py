@@ -7,4 +7,22 @@ def main(data:str):
         int: return answer
     """
     
+    l=0
+    for i in range(len(data)):
+        
+        if data[i].isdigit():
+            l+=(int(data[i]))
+        
+        
+        
+    
+
+        
+
+    return l
+f=open('txt_file/data07.txt')
+d=f.read()
+
+print((main(d)))
+    
 # Read data from file
