@@ -11,7 +11,7 @@ def main(data:str):
     for i in f:
         
         if  l<len(i):
-             l=int(i)
+             l=len(i)
         
         
         
