@@ -14,9 +14,9 @@ def main(data:str):
              l=int(i)
         
         
-        
+           
     
-
+    
           
 
     return l
